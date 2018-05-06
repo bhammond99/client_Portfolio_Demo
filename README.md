@@ -1,26 +1,22 @@
 # Portfolio Demo App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a Ruby on Rails 5 App that will allow a User to Creat their own portfolios. 
 
-Things you may want to cover:
+### Features
 
-* Hard drive Space
+- Real time chat engine 
+- Portfoilio
+- Blog
+- Drag and drop interface
 
-* Ruby version
+### Code Exert
 
-* System dependencies
+```ruby 
+def nu_method
+	puts "Hello World!"
+end
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```javascript
+alert('Hello World!');
+```
