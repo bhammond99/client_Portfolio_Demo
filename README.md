@@ -5,6 +5,8 @@ application up and running.
 
 Things you may want to cover:
 
+* Hard drive Space
+
 * Ruby version
 
 * System dependencies
