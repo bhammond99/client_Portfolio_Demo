@@ -29,11 +29,9 @@ class ProjectsController < ApplicationController
     respond_to do |format|
       if @project_item.update(params.require(:project).permit(:title, :subtitle, :body))
         format.html { redirect_to projects_path, notice: 'The Project was successfully updated.' }
-
       else
         format.html { render :edit }
       end
     end
   end
-
 end
