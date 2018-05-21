@@ -39,4 +39,17 @@ class ProjectsController < ApplicationController
   	@project_item = Project.find(params[:id])
   end	
 
+  def destroy
+  	#this performs the lookup
+  	@project_item = Project.find(params[:id])
+
+  	#this will destroy/delete the record
+  	@project_item.destroy
+
+  	#Redirect 
+    respond_to do |format|
+      format.html { redirect_to projects_url, notice: 'The Project Item was successfully destroyed.' }
+    end
+  end	
+
 end
